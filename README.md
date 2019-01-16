@@ -2,7 +2,9 @@
 
 Modified the code from https://docs.microsoft.com/en-us/windows/desktop/ToolHelp/taking-a-snapshot-and-viewing-processes
 
-Replaced the use of TCHAR to const wchar_t*
+Replaced the use of TCHAR to const wchar_t* (so it can be compiled w/o errors in vs2017/
+
+commented out some codes from original source for ease of debugging.
 
 Added code to find PID of a process via its string name.
 
